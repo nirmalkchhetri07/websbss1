@@ -1,0 +1,385 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  min-height: 100vh;
+  width: 100%;
+}
+
+.main {
+  height: 100%;
+
+  /* width: 100vw; */
+  /* border: 4px dashed rgb(25, 0, 255); */
+}
+.nav {
+  height: 50px;
+  width: 100%;
+  background-color: rgb(245, 38, 38);
+  /* display: flex; */
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid #dadada;
+}
+.nav-list {
+  display: flex;
+  gap: 3vw;
+}
+.nav-list a {
+  text-decoration: none;
+  display: flex;
+  color: bisque;
+  font-size: 1.1vw;
+  padding-right: 6vw;
+  font-family: serif;
+  font-weight: 600;
+  align-items: center;
+}
+.nav-list a:hover {
+  color: white;
+  font-weight: 900;
+  font-family: sans-serif;
+}
+.nav h2 {
+  text-decoration: none;
+  display: flex;
+  color: rgb(255, 255, 255);
+  font-size: 3vw;
+  font-family: serif;
+  font-weight: 600;
+  padding-left: 1vw;
+}
+.nav a {
+  text-decoration: none;
+  /* color: royalblue; */
+}
+.ri-menu-line {
+  font-weight: 800;
+  display: none;
+}
+.content {
+  background-color: white;
+  height: 89vh;
+  margin-top: 0vh;
+}
+
+/* @media (max-width: 600px) {
+  body {
+    min-height: 100vh;
+    width: 100%;
+  }
+  .nav {
+    background-color: rgb(0, 128, 0);
+    width: 100%;
+  }
+  .nav h2 {
+    font-size: 7vw;
+    font-family: Helvetica;
+    font-weight: 600;
+    padding-left: 1vw;
+    color: yellow;
+  }
+  .nav-list {
+  }
+  .nav-list a {
+    font-size: 2vw;
+    display: flex;
+  }
+  .nav i {
+    display: block;
+    font-size: 6vw;
+    align-items: center;
+    font-weight: 800;
+    color: white;
+    padding-right: 5vw;
+  }
+  .marquee-animation {
+    display: none;
+  }
+
+  .content {
+    width: 100%;
+    display: block;
+  }
+  .left {
+    background-color: rgba(0, 255, 64, 0.5);
+    height: 50vw;
+    width: 20em;
+    border-radius: 20px;
+  }
+  #btn2 {
+    display: none;
+  }
+  #demo {
+    display: none;
+  }
+  footer{
+    
+  }
+} */
+
+/* login css */
+/* login css */
+/* login css */
+
+@import url("https://fonts.googleapis.com/css2?family=Cabin:wght@600&display=swap");
+
+.grey-big-box {
+  background-color: #36393e;
+  border-radius: 7px;
+  align-self: center;
+  width: 60vw;
+  height: 75vh;
+  /* The next four lines will help in making the site responsive. Btw today's date is 10 April 2023. Time: 1002 hrs. */
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: "Cabin", sans-serif;
+  /* background-image: url(https://img.freepik.com/free-photo/red-black-brush-stroke-banner-background-perfect-canva_1361-3597.jpg?w=826&t=st=1692027956~exp=1692028556~hmac=5c0b0f12aea1653d2ff2b66ee3faabb0fa0fceecff5d0006219c220694279139); */
+}
+
+body {
+  /* background-image: url(https://img.freepik.com/free-photo/men-women-embrace-sunset-generative-ai_188544-12581.jpg?w=826&t=st=1692028271~exp=1692028871~hmac=fdbbe6ed140f9d5c0109ee99e6eaf1407f12e2e218a2906c7ff30eff134ad162); */
+}
+
+.go-back {
+  color: aliceblue;
+  margin-left: 30px;
+  padding-top: 20px;
+}
+.go-back a {
+  color: aliceblue;
+  text-decoration: none;
+}
+
+.welcome-back-heading {
+  color: aliceblue;
+  margin-left: 160px;
+  font-size: 25px;
+  margin-bottom: 5px;
+}
+
+/* .we-excited-text {
+    color: rgba(240, 248, 255, 0.495);
+    margin-left: 135px;
+    font-size: 15px;
+    margin-top: 10px;
+
+
+} */
+
+.entering-email-or-phone-number {
+  color: aliceblue;
+  font-size: 12px;
+  margin-left: 30px;
+  margin-top: 40px;
+}
+
+.red-ash {
+  color: red;
+}
+
+.input-email-or-phone-number {
+  width: 420px;
+  height: 40px;
+  background-color: #282b30;
+  padding: 0%;
+  border: 0cm;
+  margin-left: 30px;
+  /* margin-top: 110px; */
+  color: white;
+}
+
+.entering-password {
+  color: aliceblue;
+  margin-left: 30px;
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+
+.input-password {
+  width: 420px;
+  height: 40px;
+  background-color: #282b30;
+  padding: 0%;
+  border: 0cm;
+  margin-left: 30px;
+  color: white;
+}
+
+.forgot-password {
+  margin-left: 30px;
+  margin-top: 7px;
+}
+
+.login-button {
+  width: 430px;
+  height: 45px;
+  margin-left: 30px;
+  background-color: #5865f2;
+  padding: 0%;
+  border: 0cm;
+  margin-top: 7px;
+}
+
+.need-an-account {
+  margin-left: 30px;
+  color: rgba(240, 248, 255, 0.495);
+  font-size: 11px;
+}
+
+.right-section {
+  color: aliceblue;
+  margin-top: -250px;
+  margin-left: 530px;
+}
+
+.login-with-qr-code {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.scan-to-login-text {
+  font-size: 17px;
+  color: rgba(240, 248, 255, 0.495);
+  margin-left: -15px;
+  margin-top: 11px;
+}
+
+.image {
+  width: 170px;
+  height: 170px;
+  border-radius: 5px;
+  margin-left: 20px;
+}
+.span1 {
+  color: red;
+}
+
+/* ----------------Ending login style------------ */
+marquee {
+  background-color: #a5caa2;
+  width: 100%;
+}
+marquee h6 {
+  font-family: sans-serif;
+  font-weight: 400;
+  font: italic;
+}
+
+.content-about {
+  height: 45vh;
+  width: 50vw;
+  background-color: rgba(128, 128, 128, 0.253);
+  border-radius: 20px;
+  margin-top: 20vh;
+}
+.content-about:hover {
+  background-color: lightslategray;
+}
+.content-about p {
+  text-align: justify;
+  padding: 0 6vw;
+  justify-content: center;
+  padding-top: 4.5vh;
+  font-size: 1.1vw;
+  font-family: sans-serif, serif;
+  font-weight: 550;
+}
+.content-about p:hover {
+  color: lightgoldenrodyellow;
+}
+footer {
+  background-color: rgb(245, 38, 38);
+  padding-bottom: 20vh;
+  margin-top: 1vh;
+  text-align: center;
+  padding-top: 10vh;
+  font-size: 1.5vw;
+  width: 100%;
+}
+footer i {
+  float: right;
+  padding-left: 5vw;
+  font-size: 2vw;
+  padding-top: 10vh;
+  text-decoration: none;
+}
+
+.left {
+  /* background-color: rgb(15, 223, 153); */
+  width: 50vw;
+  height: 81vh;
+  opacity: 0.5;
+}
+.left p {
+  justify-content: center;
+  padding-top: 12vh;
+  padding-left: 2vw;
+  /* background-color: #5865f2; */
+  color: black;
+  font-family: sans-serif;
+  font-weight: 600;
+}
+.left p:hover {
+  color: #c70000;
+}
+#btn2 {
+  margin-left: 40vw;
+  height: 8vh;
+  width: 10vw;
+  border-radius: 20%;
+  background-color: #c70000;
+  color: white;
+  border-color: #c70000;
+  box-shadow: #5865f2;
+}
+#btn2:hover {
+  background-color: lightslategray;
+  font-weight: 800;
+  font-family: sans-serif;
+}
+.right {
+  /* background-color: rgb(255, 255, 35); */
+  height: 250px;
+  width: 400px;
+  margin: -70vh;
+  margin-left: 60vw;
+}
+.right img {
+  height: 250px;
+  width: 400px;
+}
+
+#demo {
+  color: blue;
+  font-family: sans-serif;
+  font-weight: 600;
+  font-size: large;
+}
+#demo:hover {
+  color: #c70000;
+}
+
+.carousel-inner {
+  height: 100vh;
+  width: 100%;
+}
+#carouselExampleControls {
+  justify-content: center;
+  width: 100%;
+}
+
+/* =============               ======
+=============  BLOG POST CSS=======
+=============               ======= */
+
+/* ----------Table----------- */
+td {
+  background-color: #0046c7;
+  color: white;
+}
